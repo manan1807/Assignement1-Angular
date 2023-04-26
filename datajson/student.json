@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Leilani",
+		"class": "9",
+		"section": "A",
+		"sub1": "56",
+		"sub2": "67",
+		"sub3": "88"
+	},
+	{
+		"name": "Jocelyn",
+		"class": "3",
+		"section": "D",
+		"sub1": "45",
+		"sub2": "66",
+		"sub3": "76"
+	},
+	{
+		"name": "Levi",
+		"class": "3",
+		"section": "C",
+		"sub1": "88",
+		"sub2": "46",
+		"sub3": "78"
+	},
+	{
+		"name": "Alvin",
+		"class": "1",
+		"section": "B",
+		"sub1": "35",
+		"sub2": "59",
+		"sub3": "99"
+	},
+	{
+		"name": "Mali",
+		"class": "5",
+		"section": "C",
+		"sub1": "63",
+		"sub2": "42",
+		"sub3": "66"
+	}
+]

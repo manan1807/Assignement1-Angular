@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Route-3</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Route-1.html">Route-1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link "  href="Route-2.html">Route-2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="Route-3.html">Route-3</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Route-4.html">Route-4</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container text-center">
+        <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+        <div class="row">
+            <div class="col-6 col-md-4 borderFrame d-flex flex-column ">
+                <h6>Count Down Timer</h6>
+                <h4>1000</h4>
+            </div>
+            <div class="col-md-8 borderFrame d-flex flex-column">
+                <div class="row">
+                    <div class="col-auto">
+                        <label for="inputPassword6" class="col-form-label">Enter Timer Value</label>
+                      </div>
+                      <div class="col-auto">
+                        <input type="text" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+                      </div>
+                    <button class="btn btn-primary" style="width: fit-content;">start/pause</button>
+                    <button class="btn btn-dark" style="width: fit-content;    margin-left: 10px;">reset</button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6 col-md-4 d-flex flex-column">
+                <h6 id="current1">Started at 2008-02-14 20:00</h6>
+                <h6>Paused at 2008-02-14 20:00</h6>
+                <h6>Started at 2008-02-14 20:00</h6>
+            </div>
+            <div class="col-6 d-flex">
+                <div class="col-6 d-flex flex-column">
+                    <h5>20</h5>
+                    <h7>started</h7>
+                </div>
+                <div class="col-6 d-flex flex-column">
+                    <h5>60</h5>
+                    <h7>pause</h7>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+        <script src="js/jquery.js"></script>
+        <script src="js/route3.js"></script>/>
+</body>
+
+</html>
